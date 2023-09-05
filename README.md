@@ -106,7 +106,7 @@ The toolkit gives you a lot of control over how components are presented and you
 
 ### LICENSE
 ```
-                                            MIT License
+                                                MIT License
 
                                     Copyright (c) 2023 Alvin Berdandino
 
