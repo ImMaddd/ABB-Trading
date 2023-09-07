@@ -862,7 +862,7 @@
   border: 1px solid var(--ref-gray-300);
   border-width: 0px;
 }
-.reflow-shopping-cart .ref-delivery-card.tabbable .ref-tab:first-of-type {
+.reflow-shopping-cart .ref-delivery-card.tabb2able .ref-tab:first-of-type {
   border-bottom-width: 1px;
 }
 .reflow-shopping-cart .ref-delivery-card .ref-tab-toggle {
@@ -871,7 +871,7 @@
   padding: 15px;
   margin-bottom: 0;
 }
-.reflow-shopping-cart .ref-delivery-card.tabbable .ref-tab-toggle {
+.reflow-shopping-cart .ref-delivery-card.tabb2able .ref-tab-toggle {
   display: flex;
 }
 .reflow-shopping-cart

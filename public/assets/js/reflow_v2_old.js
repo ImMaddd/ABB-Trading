@@ -958,7 +958,7 @@
   }
   var Be = /[ \xA0\u1680\u2000-\u200A\u202F\u205F\u3000]/;
   var qr =
-    /(?:[Eec]{1,6}|G{1,5}|[Qq]{1,5}|(?:[yYur]+|U{1,5})|[ML]{1,5}|d{1,2}|D{1,3}|F{1}|[abB]{1,5}|[hkHK]{1,2}|w{1,2}|W{1}|m{1,2}|s{1,2}|[zZOvVxX]{1,4})(?=([^']*'[^']*')*[^']*$)/g;
+    /(?:[Eec]{1,6}|G{1,5}|[Qq]{1,5}|(?:[yYur]+|U{1,5})|[ML]{1,5}|d{1,2}|D{1,3}|F{1}|[abb2]{1,5}|[hkHK]{1,2}|w{1,2}|W{1}|m{1,2}|s{1,2}|[zZOvVxX]{1,4})(?=([^']*'[^']*')*[^']*$)/g;
   function Rt(t) {
     var e = {};
     return (
@@ -4665,7 +4665,7 @@ Try polyfilling it using "@formatjs/intl-pluralrules"
           (b || y) &&
             ((x.style.display = "block"),
             (A.style.display = "block"),
-            w && A.classList.add("tabbable"));
+            w && A.classList.add("tabb2able"));
         let B = e.querySelector(".ref-local-pickup-tab");
         if (((B.style.display = "none"), y)) {
           (B.style.display = "block"),

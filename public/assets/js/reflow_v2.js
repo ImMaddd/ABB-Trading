@@ -952,7 +952,7 @@ To view Live data, disable the reflow.js "data-testmode" attribute.`),
   }
   var $e = /[ \xA0\u1680\u2000-\u200A\u202F\u205F\u3000]/;
   var ai =
-    /(?:[Eec]{1,6}|G{1,5}|[Qq]{1,5}|(?:[yYur]+|U{1,5})|[ML]{1,5}|d{1,2}|D{1,3}|F{1}|[abB]{1,5}|[hkHK]{1,2}|w{1,2}|W{1}|m{1,2}|s{1,2}|[zZOvVxX]{1,4})(?=([^']*'[^']*')*[^']*$)/g;
+    /(?:[Eec]{1,6}|G{1,5}|[Qq]{1,5}|(?:[yYur]+|U{1,5})|[ML]{1,5}|d{1,2}|D{1,3}|F{1}|[abb2]{1,5}|[hkHK]{1,2}|w{1,2}|W{1}|m{1,2}|s{1,2}|[zZOvVxX]{1,4})(?=([^']*'[^']*')*[^']*$)/g;
   function Zt(t) {
     var e = {};
     return (
@@ -5279,7 +5279,7 @@ Try polyfilling it using "@formatjs/intl-pluralrules"
         ) {
           (S.style.display = "block"), (U.style.display = "block");
           for (let x of $) x.disabled = !1;
-          C && U.classList.add("tabbable");
+          C && U.classList.add("tabb2able");
         }
         let q = e.querySelector(".ref-local-pickup-tab");
         if (((q.style.display = "none"), _)) {
